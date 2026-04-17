@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Trackr+",
+    "slug": "trackr-plus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "trackrplus",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.trackrplus.app",
+      "permissions": [
+        "READ_SMS"
+      ]
+    },
+    "plugins": [
+      "react-native-reanimated/plugin"
+    ]
+  }
+}
